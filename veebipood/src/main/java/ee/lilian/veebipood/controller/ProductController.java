@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
-
 @RestController
 public class ProductController {
 
@@ -25,14 +23,35 @@ public class ProductController {
         return productRepository.findAll();
     }
 
+    @GetMapping("products/{id}")
+    public Product getOneProduct(@PathVariable Long id){
+        return productRepository.findById(id).orElseThrow();
+    }
+
+
     @DeleteMapping("products/{id}")
     public List<Product> deleteProduct(@PathVariable Long id){
         productRepository.deleteById(id); //kustutan
         return productRepository.findAll();//uuenenud seis
     }
 
-    @PostMapping("products")
+    @PostMapping("products") //lisamine
     public List<Product> addProduct(@RequestBody Product product){
+        if (product.getId()!=null){
+            throw new RuntimeException("Cannot add with ID");
+        }
+        productRepository.save(product);//siin salvestab
+        return productRepository.findAll();//siin on uuenenud seis
+    }
+
+    @PutMapping("products")//muutmine
+    public List<Product> editProduct(@RequestBody Product product){
+        if (product.getId()==null){
+            throw new RuntimeException("Cannot edit without ID");
+        }
+        if (!productRepository.existsById(product.getId())){
+            throw new RuntimeException("Product ID does not exist");
+        }
         productRepository.save(product);//siin salvestab
         return productRepository.findAll();//siin on uuenenud seis
     }

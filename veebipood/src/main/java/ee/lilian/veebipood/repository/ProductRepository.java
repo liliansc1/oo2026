@@ -6,4 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 //repository on andmebaasiga suhtlemiseks, lisamiseks, muutmiseks, kustutamiseks jne
 public interface ProductRepository extends JpaRepository<Product,Long> {
+    Long id(Long id);
 }
