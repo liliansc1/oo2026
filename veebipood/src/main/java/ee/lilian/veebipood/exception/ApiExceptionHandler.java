@@ -2,6 +2,7 @@ package ee.lilian.veebipood.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
@@ -18,4 +19,14 @@ public class ApiExceptionHandler {
         errorMessage.setTimestamp(new Date());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorMessage);
     }
+
+    @ExceptionHandler
+    public ResponseEntity<ErrorMessage> handleException(MissingServletRequestParameterException ex){
+        ErrorMessage errorMessage = new ErrorMessage();
+        errorMessage.setMessage("Parameeter paringus puudu" + ex.getMessage());
+        errorMessage.setStatus(HttpStatus.BAD_REQUEST.value());
+        errorMessage.setTimestamp(new Date());
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorMessage);
+    }
 }
+
