@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29dd06c1-c715-4697-b475-2d1e5b01bb62" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/src/main/java/ee/lilian/filmid/FilmidApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/src/main/java/ee/lilian/filmid/controller/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/src/main/java/ee/lilian/filmid/entity/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/src/main/java/ee/lilian/filmid/repository/MovieRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01_06.02-andmemudelid/filmid/src/test/java/ee/lilian/filmid/FilmidApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod/autod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/autod/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/src/main/java/ee/lilian/autod/AutodApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/src/main/java/ee/lilian/autod/controller/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/src/main/java/ee/lilian/autod/entity/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/src/main/java/ee/lilian/autod/exception/ApiExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/src/main/java/ee/lilian/autod/exception/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/src/main/java/ee/lilian/autod/repository/CarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/ee/lilian/autod/AutodApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/ee/lilian/autod/controller/CarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/ee/lilian/autod/entity/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/ee/lilian/autod/exception/ApiExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/ee/lilian/autod/exception/ErrorMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/ee/lilian/autod/repository/CarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_13.02-veateated/autod/target/classes/main/resources/application.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3AAw6R5zYWzRW3XzGCuInIT8zWi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/lilia/OneDrive/Documents/GitHub/oo2026/decathlon/decathlon/src/Main.java",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29dd06c1-c715-4697-b475-2d1e5b01bb62" name="Changes" comment="" />
+      <created>1772048514786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772048514786</updated>
+      <workItem from="1772048519077" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
