@@ -5,8 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 
 @Entity
 @Getter
@@ -19,7 +17,9 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
-    @Enumerated(EnumType.STRING)// aitab vältida valede väärtuste lisamist
-    private MovieType type;
+    private MovieType type;//aitab valtida valesid vaartuseid
     private int days;//mitu päeva oli renditud, kui 0, siis available
+
+    @ManyToOne
+    private Rental rental;
 }
