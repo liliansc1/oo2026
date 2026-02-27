@@ -6,21 +6,22 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Result {
+public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Enumerated(EnumType.STRING)
-    private Event event;      // ala nt 100m/LONG_JUMP jne
-    private Double result;    // tulemus 12.5/8.0 jne (sek või m)
-    private Integer points;   // backend arvutab
+    private String firstName;
+    private String lastName;
+    private String birthDate;
+    private String nationality;
 
-    @ManyToOne
-    @JoinColumn(name = "person{id}")
-    private Person person;
+    @OneToMany(mappedBy = "person", cascade = CascadeType.ALL)
+    private List<Result> results;
 }
