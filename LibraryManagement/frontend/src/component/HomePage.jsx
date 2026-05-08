@@ -10,7 +10,7 @@ function HomePage() {
   useEffect(() => {
     async function fetchBooks() {
       try {
-        const data = await fetch("http://localhost:8081/api/books?size=10&sort=createdAt,desc");
+        const data = await fetch("http://localhost:8081/api/books?size=3&sort=createdAt,desc");
         const fetchData = await data.json();
         //const sorted = fetchData.sort(
         //  (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
@@ -22,7 +22,7 @@ function HomePage() {
       }
     }
     fetchBooks();
-  }, []);
+  }, [page]);
 
   return (
     <div
@@ -104,6 +104,8 @@ function HomePage() {
               </div>
             </Link>
           ))}
+          <button onClick={() => setPage}>Eelmine</button>
+          {page+1}
         </div>
       )}
     </div>
